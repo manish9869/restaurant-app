@@ -15,7 +15,6 @@ function Menu() {
     <div className="menu">
       <h1 className="menuTitle">Our Menu</h1>
 
-      {/* Search Bar */}
       <div className="searchBar">
         <input
           type="text"
@@ -26,7 +25,6 @@ function Menu() {
         />
       </div>
 
-      {/* Menu List */}
       <div className="menuList">
         {filteredMenu.length > 0 ? (
           filteredMenu.map((menuItem, key) => (
