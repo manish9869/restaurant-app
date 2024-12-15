@@ -23,7 +23,7 @@ function Contact() {
             name="message"
             required
           ></textarea>
-          <button type="submit"> Send Message</button>
+          <button type="submit"> Send </button>
         </form>
       </div>
     </div>
